@@ -7,9 +7,10 @@ Monitoring tool logically consists of three parts:
 3.Web application which allows: 
 	3.1.CRUD operations for hosts, types of metrics, metrics. 
 	3.2.Monitor current state of servers metrics and view the history of metrc values.
-	
 	Backend is implemented as Golang microservices, Source code in repository monitw. 
 	Fronted is implemented using React. Source code in repository monitf.
+	
+	
 
 	
 	
