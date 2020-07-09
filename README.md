@@ -1,5 +1,6 @@
 # monitw
 Monitoring tool logically consists of three parts:
+
 1.Database containing hosts, types of metrics, metrics, time series of metrics,  authorized users, passwords.
 
 2.Service which in background mode is collecting values of metrics and recording them to db. Implemented using Golang. Source code is in repository monit.
