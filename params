@@ -1,0 +1,11 @@
+
+##host where grpc server for JWT works
+jwthost=10.58.56.68
+
+
+###Authorization is required
+auth=true
+
+
+#Path for report tamplates
+templpath=D:\\Sasha\\work_files\\work_files_ecc\\Project_React_Go\\Go_work\\project1\\src\\monitw\\internal\\reports\\static\\

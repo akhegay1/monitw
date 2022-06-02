@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style type="text/css" media="screen">
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #div2 {
+        height: 200px;
+        width: 400px;
+      }
+      h1 { text-align:center;}
+      table {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      tr {
+        text-align: left;
+        padding: 8px;
+      }
+      td, th {
+        text-align: left;
+        padding: 8px;
+      }
+
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+    </style> 
+  </head>
+  <body>
+    <div id="div2"></div>
+    <h1>Максимальная загрузка  ЦПУ </h1>
+    <table>
+      	<tr>
+          <th>Hostname</th>
+          <th>MaxCpuValue</th>
+    	</tr>
+        {{range .MaxCpuValuesAr}}
+        <tr>
+            <td>{{.Hostname}}</td>
+            <td>{{.MaxCpuValue}}</td>
+        </tr>
+        {{end}}
+    </table>
+  </body>
+</div>
+</html>
+
+
